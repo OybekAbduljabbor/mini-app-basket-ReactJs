@@ -38,7 +38,7 @@ export function Product({ Data, setPrice, search }) {
     });
   }
   return (
-    <div>
+    <>
       {filtered.length === 0 ? (
         <Ops />
       ) : (
@@ -71,6 +71,6 @@ export function Product({ Data, setPrice, search }) {
           );
         })
       )}
-    </div>
+    </>
   );
 }

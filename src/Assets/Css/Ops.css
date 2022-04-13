@@ -1,6 +1,7 @@
 #ops {
   width: 100%;
-  height: 77vh;
+  max-height: 100vh;
+  height: 100% !important;
   display: flex;
   justify-content: center;
   align-items: center;
